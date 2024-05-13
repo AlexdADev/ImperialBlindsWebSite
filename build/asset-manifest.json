@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ImperialBlindsWebSite/static/css/main.a088d862.css",
+    "main.js": "/ImperialBlindsWebSite/static/js/main.4a8ddc03.js",
+    "static/media/3.jpg": "/ImperialBlindsWebSite/static/media/3.310a24cde24a629680af.jpg",
+    "static/media/logo1.svg": "/ImperialBlindsWebSite/static/media/logo1.54727734b66e822db301ff4b7165b9c0.svg",
+    "static/media/logo2.svg": "/ImperialBlindsWebSite/static/media/logo2.c4a71065b576299654ead76dd67ebac8.svg",
+    "static/media/bi_instagram.svg": "/ImperialBlindsWebSite/static/media/bi_instagram.7a418fb9c7354a5c644841ff89ae86b1.svg",
+    "static/media/ic_sharp-whatsapp.svg": "/ImperialBlindsWebSite/static/media/ic_sharp-whatsapp.1f38350d2e5f877aec004543c49fd937.svg",
+    "index.html": "/ImperialBlindsWebSite/index.html",
+    "static/media/gg_facebook.svg": "/ImperialBlindsWebSite/static/media/gg_facebook.af46e51ef021602b7b2c62d69aec1361.svg",
+    "main.a088d862.css.map": "/ImperialBlindsWebSite/static/css/main.a088d862.css.map",
+    "main.4a8ddc03.js.map": "/ImperialBlindsWebSite/static/js/main.4a8ddc03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a088d862.css",
+    "static/js/main.4a8ddc03.js"
+  ]
+}

@@ -1,0 +1,40 @@
+.fomrulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9ac5e3;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#colorPicker {
+    width: 300px; /* Ajusta este valor según tus necesidades */
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.alert {
+    border-radius: 20px;
+    font-weight: bold;
+}
+.fomrulario{
+    color: #000000;
+}

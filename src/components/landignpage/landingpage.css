@@ -1,0 +1,200 @@
+#introPage {
+  height: 100vh; /* Ocupa toda la altura del viewport */
+  background-image: url(https://st.hzcdn.com/simgs/pictures/living-rooms/skyline%C2%AE-gliding-window-panels-and-roller-shade-window-spaces-img~ce7146a00af24de3_9-4629-1-4d7016e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; /* Activa el modelo de caja flexible */
+  flex-direction: column; /* Elementos en columna */
+  align-items: center; /* Alineación horizontal centrada */
+  justify-content: center; /* Distribución vertical con espacio entre secciones */
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.logo {
+  min-width: 30%; /* Tamaño relativo del logo (40% del ancho de la página) */
+  margin: 20px auto; /* Centra el logo horizontalmente y agrega margen superior e inferior */
+}
+
+#text01 {
+  width: 80%;
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 1 em;
+  line-height: 1.6; /* Espacio entre líneas de texto */
+  margin-bottom: 6%; /* Espacio entre el texto y el botón */
+  color: rgb(12, 12, 50);
+}
+@media screen and (max-width: 600px) {
+  #text01 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  #comprar {
+    padding-top: 20px;
+  }
+}
+.fomrulario {
+  width: 80%;
+  background-color: #032539;
+  padding: 10px;
+  color: wheat;
+}
+#comprar {
+  padding: 15px 30px; /* Ajuste el relleno del botón */
+  background-color: #f7a900; /* Color naranja pastel vivo */
+  border-color: #f7b100; /* Color del borde */
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer; /* Indicador de cursor en forma de mano */
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.478);
+  border-radius: 50px;
+}
+#textparff {
+  margin-bottom: 4rem;
+}
+#textContent1 {
+  height: 30vh; /* Ocupa el 30% de la altura de la pantalla */
+  display: flex; /* Activa el modelo de caja flexible */
+  padding: 10px; /* Espaciado para separar los bordes de los elementos hijos */
+  align-items: center;
+  justify-content: center;
+}
+#textborder {
+  background-color: #00000016;
+  border-radius: 35px;
+  color: #032539;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#text001,
+#text002 {
+  font-size: 2vw;
+  flex: 1; /* Distribuir el espacio disponible entre los textos */
+  padding: 10px; /* Espaciado interno para separar los bordes */
+}
+#text002 {
+  color: #1c768f;
+}
+#textContent2 {
+  height: 30vh; /* Ocupa el 30% de la altura de la pantalla */
+  display: flex; /* Activa el modelo de caja flexible */
+  padding: 10px; /* Espaciado para separar los bordes de los elementos hijos */
+  align-items: center;
+  justify-content: center;
+}
+.textocard {
+  width: 70%;
+  margin-top: 20%;
+}
+.card1 {
+  background-image: url(../img/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  border-radius: 0px;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  line-height: 1.6;
+  font-size: larger;
+  padding-top: 40px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#logo2 {
+  max-width: 300px;
+}
+.card-title {
+  font-size: 4rem;
+}
+.btn {
+  background-color: #f7a900;
+  border: 0px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.321);
+}
+#textContent2 {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 80%; /* 3/5 del ancho de la pantalla */
+  height: 172px;
+  padding: 10px; /* Espaciado para separar los bordes de los elementos hijos */
+  margin-top: 50px;
+  border-radius: 35px;
+  color: #032539;
+}
+#text004,
+#text003 {
+  color: #032539;
+  font-size: 1.5rem;
+  flex: 1; /* Distribuir el espacio disponible entre los textos */
+  margin-left: 30%;
+  text-align: center;
+}
+#fontlong {
+  font-size: 6vw;
+}
+#textContent2 p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#Galery {
+  height: 100vh;
+  width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.link-link {
+  margin: 10px;
+  align-items: center;
+}
+#bootons {
+  position: absoluter ex;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}
+/* Estilos por defecto para pantallas más grandes */
+#textContent1 {
+  font-size: 16px; /* Ajusta el tamaño de la tipografía según sea necesario */
+}
+
+#text001,
+#text002 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilos para pantallas de iPhone 15 o menores */
+@media (max-width: 600px) {
+  #textContent1 {
+    font-size: 14px; /* Ajusta el tamaño de la tipografía para pantallas más pequeñas */
+  }
+
+  #text001,
+  #text002 {
+    font-size: 12px; /* Ajusta el tamaño de la tipografía para pantallas más pequeñas */
+    animation: fadeIn 1s ease-in-out;
+  }
+}
